@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed:400,500,700,900|PT+Serif:400,700" rel="stylesheet">
+
+  <style>
+    *{box-sizing: border-box;}
+    html{font-family: 'PT Serif', serif;font-size: 1.3rem;color:black}
+    body.nightmode{color:silver;background:black;}
+    .toggle,.print{display:block;cursor:pointer;position:fixed;right:0;top:5rem;width:3rem;height:3rem;line-height:3rem;}
+    .print{top:10rem;text-align:center;}
+    .toggle:before{display:block; text-align: center;content:'Aa';}
+    body:not(.nightmode) .toggle:before,body:not(.nightmode) .print{background:black;color:silver}
+    body:not(.nightmode) .print a{color:silver;display:block;width:100%;height:100%}
+    .nightmode .toggle:before{background:silver;color:black;}
+    .nightmode .print{background:silver;color:black;}
+    .nightmode .print a{color:black;}
+    .nightmode .print a:hover{color:cadetblue;}
+    h1,h2,h3,h4,h5,h6{font-family: 'Fira Sans Extra Condensed', sans-serif;font-weight:500;text-align:left;margin: 0 0 .5em;line-height:1.2}
+    h1{font-weight:700;text-align: center;margin:1rem 0 0}
+		h1+h2{text-align: center;font-size: 1rem}
+    @media print{
+      body.nightmode{color:black;background:transparent;}
+      .toggle,.print{visibility:hidden;}
+    }
+	</style>
+
+  <title>Fiction Coach</title>
+</head>
+
+<body>
+  <header>
+    <h1>Fiction Coach</h1>
+    <h2>Coming soon</h2>
+    <span class="toggle"></span>
+  </header>
+
+  <script>
+    var body = document.querySelector('body'),
+        toggle = document.querySelector('.toggle');
+
+    toggle.onclick = function(){body.classList.toggle('nightmode');}; // this enables your night mode functionality
+    toggle.click(); // comment this out if you don't want the night mode theme enabled by default
+  </script>
+</body>
+</html>
