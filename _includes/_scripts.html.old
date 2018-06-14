@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="{{ "/assets/css/minified/website.css" | prepend: site.baseurl }}">
+<script src="{{ "/assets/vendor/jquery/dist/jquery.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/vendor/object-fit-images/dist/ofi.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/vendor/gsap/src/minified/TweenMax.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/vendor/gsap/src/minified/plugins/ScrollToPlugin.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/vendor/sticky-kit/dist/sticky-kit.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/vendor/jarallax/dist/jarallax.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/vendor/jarallax/dist/jarallax-video.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/vendor/keymaster/keymaster.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/godlike.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/godlike-init.js" | prepend: site.baseurl }}"></script>

@@ -1,0 +1,45 @@
+---
+layout: p_w_bcms
+parentTitle: Case Studies
+parentUrl: case-studies.html
+title: Movies
+categoryName: Movies
+pageCustomId: categPg
+pageLevel: 3
+---
+
+<div class="nk-gap-4"></div>
+<!-- START: Posts List -->
+<div class="nk-blog-grid-3">
+  {% for post in site.categories.movies %}
+    <div class="nk-blog-post">
+        <div class="nk-post-thumb">
+            <a href="{{post.url}}">
+              <picture>
+                <source media="(max-width: 991px)" srcset="{{site.url}}/assets/images/posts/resized/mobile/{{post.pic}}">
+                <img class="nk-img-stretch" src="{{site.url}}/assets/images/posts/resized/desk/{{post.pic}}" alt="{{post.title}}">
+              </picture>
+            </a>
+        </div>
+        <div class="nk-post-content">
+            <h2 class="nk-post-title h4">
+                <a href="{{post.url}}">{{post.title}}</a>
+            </h2>
+            <div class="nk-post-date">
+                {{post.date | date_to_long_string}}
+            </div>
+            <div class="nk-post-text">
+                <p>{{post.excerpt}}</p>
+            </div>
+            <div class="nk-gap"></div>
+            <a href="{{post.url}}" class="nk-btn-sm nk-btn nk-btn-color-dark-1 nk-btn-bg-white">
+              Read more
+            </a>
+        </div>
+    </div>
+    <!-- END: Post -->
+  {% endfor %}
+
+</div>
+<!-- END: Posts List -->
+<div class="nk-gap-4"></div>

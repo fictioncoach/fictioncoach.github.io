@@ -1,0 +1,176 @@
+---
+pageCustomId: postPg
+layout: default
+---
+
+<div class="nk-header-title nk-header-title-md nk-header-title-parallax nk-header-title-parallax-opacity nk-header-title-boxed">
+    <div class="bg-image op-5">
+      <picture>
+        <source media="(max-width: 991px)" srcset="{{site.url}}/assets/images/posts/resized/mobile/{{page.pic}}">
+        <img class="nk-img-stretch" src="{{site.url}}/assets/images/posts/resized/desk/{{page.pic}}" alt="{{page.title}}">
+      </picture>
+    </div>
+
+    <div class="nk-header-table">
+        <div class="nk-header-table-cell">
+            <div class="container">
+                <div class="nk-header-text">
+                    <div class="row text-left">
+                        <div class="col-lg-8">
+                            <div class="nk-gap-5 d-none + d-lg-block"></div>
+                            <h1 class="nk-title">{{page.title}}</h1>
+                            <div class="nk-gap-3 d-none + d-lg-block"></div>
+                            <div class="nk-gap-5 d-none + d-lg-block"></div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <aside class="nk-sidebar nk-sidebar-right">
+                                <div class="nk-gap-5 d-none + d-lg-block"></div>
+                                <div class="nk-gap d-lg-none"></div>
+                                <div class="px-2 py-2 bg-black">
+                                <table class="meta_dtls">
+                                    <tbody>
+                                        <tr>
+                                            <td><strong>Published:</strong> &nbsp;&nbsp;&nbsp;</td>
+                                            <td>{{page.date | date_to_long_string}}</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td><strong>Category:</strong> &nbsp;&nbsp;&nbsp;</td>
+                                            <td>
+                                              {% for item in site.category_tree %}
+                                                {% if page.category == item.categ %}
+                                                  <a href="{{site.url}}{{item.url}}">{{item.page  | capitalize}}</a>
+                                                {% endif %}
+                                              {% endfor %}
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <strong>Written by:</strong> &nbsp;&nbsp;&nbsp;
+                                            </td>
+                                            <td>
+                                                <a href="{{site.url}}/contact.html">Richard Crimson</a>
+                                            </td>
+                                        </tr>
+
+                                        {% if page.img_copyright %}
+                                        <tr class="small_fonting">
+                                            <td><strong>Image credit:</strong> &nbsp;&nbsp;&nbsp;</td>
+                                            <td>
+                                              <em><a href="{{page.img_copyright}}" target="_blank" rel="noreferrer nofollow external">{{page.img_copyright}}</a></em>
+                                            </td>
+                                        </tr>
+                                        {% endif %}
+                                    </tbody>
+                                </table>
+                                </div>
+
+                                <div class="nk-gap-5 d-lg-none"></div>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END: Header Title -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="nk-blog-container nk-blog-container-offset">
+                <!-- START: Post -->
+
+                <div class="nk-blog-post nk-blog-post-single">
+                    <div class="nk-header-text-bottom breadcrumbs-wrapper">
+                        <div class="nk-breadcrumbs text-left">
+                            <ul>
+                                {% if page.category != 'writing' %}
+                                <li><a href="_studies.html">Case Studies</a></li>
+                                {% endif %}
+
+                                <li>
+                                  {% for item in site.category_tree %}
+                                    {% if page.category == item.categ %}
+                                      <a href="{{site.url}}{{item.url}}">{{page.category  | capitalize}}</a>
+                                    {% endif %}
+                                  {% endfor %}
+                                </li>
+
+                                <li><span>{{page.title}}</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    {% if page.video != '' %}
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/{{page.video}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    {% endif %}
+                    <!-- START: Post Text -->
+                    <div class="nk-post-text mt-0">
+                        {% if page.audio != '' %}
+                        <iframe allow="autoplay" frameborder="no" height="166" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{page.audio}}&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true" width="100%"></iframe>
+                        <div class="nk-gap-1"></div>
+                        {% endif %}
+
+                        {{content}}
+
+                        <div class="nk-gap-1"></div>
+                        <!-- START: Post Meta -->
+
+                        <div class="nk-post-tags">
+                            Tags: &nbsp;
+                            {% for tag in page.tags %}
+                              {% capture tag_name %}{{ tag }}{% endcapture %}
+                                <a href="{{site.url}}/tag/{{ tag_name | downcase | replace: ' ', '-' }}">{{ tag_name }}</a>
+                            {% endfor %}
+                        </div>
+
+                        <div class="nk-gap-1"></div>
+
+                        <p>If you liked this article and think others should read it, please <a href="http://twitter.com/share?text={{page.title}}&amp;url={{ site.url }}{{ page.url }}&amp;via={{ site.twitter_site }}"
+                        onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">share it on Twitter <i class="fa fa-twitter" aria-hidden="true" style="color:#00aced"></i></a></p>
+
+
+                        <!-- END: Post Meta -->
+                    </div>
+                    <!-- END: Post Text -->
+                    <!-- START: Post Author -->
+
+                    <div class="nk-post-author">
+                        <div class="nk-post-author-photo">
+                            <a href="{{site.url}}/contact.html"><img alt="Richard Crimson avatar" src="{{ "/assets/images/crimson.jpg" | prepend: site.baseurl }}"></a>
+                        </div>
+
+                        <h4 class="nk-post-author-name h5">
+                            <a href="{{site.url}}/contact.html">Richard Crimson</a>
+                        </h4>
+
+                        <div class="nk-post-author-info">
+                          <p class="text-left">Developmental editor and main writer at <a href="https://fiction.coach"><i class="fas fa-book"></i> Fiction Coach</a></p>
+                          <p class="py-0 mb-0 text-left">You can also find me here:</p>
+                          <ul class="socials text-left">
+                            <li class="medium"><a href="https://medium.com/@theplotdude" title="Medium" target="_blank" rel="noopener"><img width="30" src="{{ "/assets/images/medium.svg" | prepend: site.baseurl }}" alt="Medium"></a></li>
+                            <li class="quora"><a href="https://www.quora.com/profile/Richard-Crimson-1" title="Quora" target="_blank" rel="noopener"><img width="30" src="{{ "/assets/images/quora.svg" | prepend: site.baseurl }}" alt="Quora"></a></li>
+                            <li class="insta"><a href="https://www.instagram.com/theplotdude/" title="Instagram" target="_blank" rel="noopener"><img width="30" src="{{ "/assets/images/instagram.svg" | prepend: site.baseurl }}" alt="Instagram"></a></li>
+                            <li class="small_font"><span><img class="inline-block" src="{{ "/assets/images/m_svg.png" | prepend: site.baseurl }}" alt="gmail" width="30"> theplotdude</span></li>
+                          </ul>
+                        </div>
+                    </div>
+                    <!-- END: Post Author -->
+                </div>
+                <!-- END: Post -->
+            </div>
+        </div>
+
+        {% include _related_posts.html %}
+    </div>
+
+    <div class="nk-gap-4">
+    </div>
+
+    <div class="nk-gap-3">
+    </div>
+</div>

@@ -1,0 +1,28 @@
+---
+layout: p_w_bcms
+title: Fiction Coach Sitemap
+pageCustomId: categPg
+pageLevel: 2
+---
+
+<div class="row align-items-center">
+    <div class="col-lg-6 offset-lg-3 nk-box-3 bg-dark-2">
+      <ul>
+        {% for item in site.sitemap %}
+          <li class="{% if item.subfolderitems %} nk-drop-item {% endif %} {% if item.url == page.url %} active {% endif %}">
+            <a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
+            {% if item.subfolderitems %}
+              <ul class="dropdown">
+                {% for entry in item.subfolderitems %}
+                  <li class="{% if item.url == page.url %} active {% endif %}">
+                    <a href="{{ entry.url }}">{{ entry.page }}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+</div>
+<div class="nk-gap-4"></div>

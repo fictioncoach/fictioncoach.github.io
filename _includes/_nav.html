@@ -1,0 +1,45 @@
+<nav class="nk-navbar nk-navbar-top nk-navbar-sticky nk-navbar-transparent nk-navbar-autohide nk-navbar-light">
+    <div class="container">
+        <div class="nk-nav-table">
+
+            <a href="{{site.url}}" class="nk-nav-logo">
+                <img src="{{ "/assets/images/f_black.svg" | prepend: site.url }}" alt="" width="120">
+            </a>
+
+
+            <ul class="nk-nav nk-nav-right d-none d-lg-block" data-nav-mobile="#nk-nav-mobile">
+              {% for item in site.header_navigation %}
+                <li class="{% if item.subfolderitems %} nk-drop-item {% endif %} {% if item.url == page.url %} active {% endif %}">
+                  <a href="{{ site.url }}/{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
+                  {% if item.subfolderitems %}
+                    <ul class="dropdown">
+                      {% for entry in item.subfolderitems %}
+                        <li class="{% if item.url == page.url %} active {% endif %}">
+                          <a href="{{ site.url }}{{ entry.url }}">{{ entry.page }}</a>
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+
+            <ul class="nk-nav nk-nav-right nk-nav-icons">
+                <li class="single-icon d-lg-none">
+                    <a href="#" class="no-link-effect" data-nav-toggle="#nk-nav-mobile">
+                        <span class="nk-icon-burger">
+                            <span class="nk-t-1"></span>
+                            <span class="nk-t-2"></span>
+                            <span class="nk-t-3"></span>
+                        </span>
+                    </a>
+                </li>
+                <li class="single-icon">
+                    <a href="#" class="nk-search-toggle no-link-effect">
+                        <span class="nk-icon-search"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

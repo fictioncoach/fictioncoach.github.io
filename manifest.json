@@ -1,0 +1,15 @@
+{
+  "short_name": "Fic Coach",
+  "name": "Fiction Coach",
+  "icons": [
+    {
+      "src": "/assets/images/fvicon_coach.png",
+      "type": "image/png",
+      "sizes": "194x194"
+    }
+  ],
+  "start_url": "/#series",
+  "background_color": "#000",
+  "display": "standalone",
+  "theme_color": "#333"
+}

@@ -1,0 +1,19 @@
+---
+layout: p_w_bcms
+title: Tags
+pageCustomId: categPg
+pageLevel: 2
+---
+
+<div class="row align-items-center">
+    <div class="col-lg-6 offset-lg-3 nk-box-3 bg-dark-2">
+      <ul>
+        {% for tag in site.tag_cloud %}
+          <li>
+            <h4><a href="{{site.url}}/tag/{{tag | downcase | replace: ' ', '-' }}">{{tag | capitalize}}</a></h4>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+</div>
+<div class="nk-gap-4"></div>

@@ -1,0 +1,35 @@
+{% unless page.category == null %}
+  {% capture pageCategory %}{{ page.category }}{% endcapture %}
+  {% unless site.categories[pageCategory].size == 1 %}
+    <div class="col-lg-4">
+        <aside class="nk-sidebar nk-sidebar-right nk-sidebar-sticky">
+            <div class="nk-gap-4"></div>
+
+            <div class="nk-widget">
+                <p>{{page.category  | capitalize}} studies you'd like</p>
+                <div>
+                  {% for post in site.categories[pageCategory] limit:4 %}
+                    {% unless post.title == page.title %}
+
+                    <div class="nk-widget-post">
+                        <a class="nk-image-box-1 nk-post-image" href="{{ site.url }}{{ post.url }}">
+                          <picture>
+                            <source media="(max-width: 991px)" srcset="{{site.url}}/assets/images/posts/resized/mobile/{{post.pic}}">
+                            <img class="nk-img-stretch" src="{{site.url}}/assets/images/posts/resized/desk/{{post.pic}}" alt="{{post.title}}">
+                          </picture>
+                        </a>
+                        <h3 class="nk-post-title">
+                            <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+                        </h3>
+
+                        <div class="nk-post-meta-date">{{ post.date | date: "%b %-d, %Y" }}</div>
+                    </div>
+                    {% endunless %}
+                  {% endfor %}
+                </div>
+            </div>
+        </aside>
+        <!-- END: Sidebar -->
+    </div>
+  {% endunless %}
+{% endunless %}
