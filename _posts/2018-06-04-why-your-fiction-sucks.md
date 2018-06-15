@@ -9,7 +9,6 @@ video: ""
 audio: ""
 excerpt: "'It's a fantasy novel. Well, a trilogy, actually!'<br /><br />Look at that. Obviously, that is the sentence that has the hairs raised on the back of your editor or someone who knows how a story works."
 tags: ["On Writing"]
-img_copyright: "www.privacyactivism.org"
 ---
 
 Look at this. Obviously, this is the sentence that has the hairs raised on the back of your editor or someone who knows [how a story works]({% post_url 2018-06-01-how-to-write-a-good-story %}):

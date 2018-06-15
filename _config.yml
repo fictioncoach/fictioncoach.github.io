@@ -2,7 +2,7 @@
 title             : "Fiction Coach"
 hpg_description   : "Write better stories"
 description       : "Write better stories. With solid case studies from great books, cult movies, beloved series and kick-ass games!"
-url               : "https://fiction.coach/"
+url               : "https://fiction.coach"
 baseurl           : "" # apply repo name if use it under gh-pages branch
 repo              : https://github.com/fictioncoach/fictioncoach.github.io/
 comments          : false
@@ -44,7 +44,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-json-feed
+  # - jekyll-json-feed
   - jekyll/tagging
 
 # navbar pages
@@ -137,6 +137,8 @@ header_navigation:
       url: /tag/voice
     - page: Editor's orders
       url: /tag/on-writing
+- title: About & Contact
+  url: contact.html
 
 category_tree:
 - page: Book Studies

@@ -11,13 +11,22 @@ pageLevel: 3
 <div class="nk-gap-4"></div>
 <!-- START: Posts List -->
 <div class="nk-blog-grid-3">
+
+  {% assign psize = site.categories.games | size %}
+
+  {% if psize == 0 %}
+    <div class="nk-blog-post"><div class="nk-post-content"><h3>Coming soon</h3></div></div>
+  {% endif %}
+
+
+
   {% for post in site.categories.games %}
     <div class="nk-blog-post">
         <div class="nk-post-thumb">
             <a href="{{post.url}}">
               <picture>
                 <source media="(max-width: 991px)" srcset="{{site.url}}/assets/images/posts/resized/mobile/{{post.pic}}">
-                <img class="nk-img-stretch" src="{{site.url}}/assets/images/posts/resized/desk/{{post.pic}}" alt="{{post.title}}">
+                <img class="nk-img-stretch" src="{{site.url}}/assets/images/posts/resized/desk/square/{{post.pic}}" alt="{{post.title}}">
               </picture>
             </a>
         </div>

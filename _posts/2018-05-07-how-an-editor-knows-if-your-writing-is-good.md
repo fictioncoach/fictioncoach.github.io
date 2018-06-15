@@ -9,7 +9,6 @@ video: ""
 audio: ""
 excerpt: "Developmental editing is a complex and dying craft.<br /><br />Because if you want to do that, you need to know the process and the mechanics of a story inside and out.<br /><br />And you can only do that if you know what a story is made of."
 tags: ["On Writing"]
-img_copyright: "http://thebluediamondgallery.com/"
 ---
 
 You have

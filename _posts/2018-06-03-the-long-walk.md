@@ -10,7 +10,7 @@ video: ""
 audio: ""
 img_copyright: "https://audiobookstore.com/"
 excerpt: "Before The Hunger Games, there was The Long Walk. <br /> <br /> And it has a rawness that reflects the drive and hunger of a young Stephen King."
-tags: ["Stephen King", "Writing Voice", "Theme", "Concept", "Character Development"]
+tags: ["Stephen King", "Writing Voice", "Theme", "Concept", "Character Development", "Voice"]
 ---
 Before The Hunger Games, there was The Long Walk, Stephen King's first novel, from when he was 18 years old. And this is a lean and mean story,  burning with bright, hot fire.
 
