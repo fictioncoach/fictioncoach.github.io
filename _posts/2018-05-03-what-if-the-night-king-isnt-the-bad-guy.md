@@ -6,7 +6,7 @@ category: "series"
 image: "/assets/images/posts/resized/desk/night-king.jpg"
 pic: "night-king.jpg"
 video: ""
-audio: ""
+audio: "460600236"
 excerpt: "Many people speculate that the north and the south will eventually rally up to defeat the white walkers. <br /><br /> A great tolkien-esque ending. One that Martin is most likely against of."
 tags: ["Game Of Thrones", "GoT", "Villains", "Story"]
 ---
