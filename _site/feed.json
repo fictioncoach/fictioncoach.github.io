@@ -2,74 +2,182 @@
   "version" : "https://jsonfeed.org/version/1",
   "title" : "Fiction Coach",
   "description" : "Write better stories. With solid case studies from great books, cult movies, beloved series and kick-ass games!",
-  "home_page_url" : "http://localhost:4000",
-  "feed_url" : "http://localhost:4000/feed.json",
+  "home_page_url" : "http://https://fiction.coach",
+  "feed_url" : "http://https://fiction.coach/feed.json",
   "items": [
      {
-        "url": "http://localhost:4000/2018/06/how-jk-rowling-made-harry-potter-a-mystery",
-        "title": "How Jk Rowling Made Harry Potter A Mystery",
+        "url": "http://https://fiction.coach/2018/07/prizoner-of-azkaban",
+        "title": "Prizoner Of Azkaban",
         "summary": "\n",
-        "image": "http://localhost:4000",
-        "date_published": "10 June 2018",
-        "date_published": "10 June 2018",
+        "image": "http://https://fiction.coach",
+        "date_published": "16 July 2018",
+        "date_published": "16 July 2018",
         "author": {
             "name": "Richard Crimson"
         },
         "tags": []
      }, 
      {
-        "url": "http://localhost:4000/2018/06/why-your-fiction-sucks",
-        "title": "Why Your Fiction Sucks",
-        "summary": "'It's a fantasy novel. Well, a trilogy, actually!'<br /><br />Look at that. Obviously, that is the sentence that has the hairs raised on the back of your editor or someone who knows how a story works.",
-        "image": "http://localhost:4000/assets/images/posts/why-your-fiction-sucks-1.jpg",
-        "date_published": "04 June 2018",
-        "date_published": "04 June 2018",
+        "url": "http://https://fiction.coach/2018/07/jk-rowling-series-order-phoenix",
+        "title": "How Rowling used series as threads for Order of The Phoenix plot",
+        "summary": "",
+        "image": "http://https://fiction.coach/assets/images/posts/resized/desk/jk-rowling.jpg",
+        "date_published": "02 July 2018",
+        "date_published": "02 July 2018",
         "author": {
             "name": "Richard Crimson"
         },
-        "tags": ["On Writing"]
+        "tags": ["On Writing", "Book Studies", "Movies", "JK Rowling", "Harry Potter", "Structure"]
      }, 
      {
-        "url": "http://localhost:4000/2018/06/the-long-walk",
-        "title": "The Long Walk - How far will you go to take your next breath?",
-        "summary": "Before The Hunger Games, there was The Long Walk. <br /> <br /> And it has a rawness that reflects the drive and hunger of a young Stephen King.",
-        "image": "http://localhost:4000/assets/images/posts/resized/desk/the-long-walk.jpg",
-        "date_published": "03 June 2018",
-        "date_published": "03 June 2018",
+        "url": "http://https://fiction.coach/2018/06/harry-potter-characters",
+        "title": "How to Create Characters like JK Rowling",
+        "summary": "",
+        "image": "http://https://fiction.coach/assets/images/posts/resized/desk/jk-rowling.jpg",
+        "date_published": "25 June 2018",
+        "date_published": "25 June 2018",
         "author": {
             "name": "Richard Crimson"
         },
-        "tags": ["Stephen King", "Writing Voice", "Theme", "Concept", "Character Development", "Voice"]
+        "tags": ["On Writing", "Book Studies", "Movies", "JK Rowling", "Harry Potter", "Character"]
      }, 
      {
-        "url": "http://localhost:4000/2018/06/spiderman-homecoming",
-        "title": "Spiderman Homecoming",
+        "url": "http://https://fiction.coach/2018/06/how-arya-kills-the-mountain-foreshadowing",
+        "title": "How Arya will kill The Mountain - a Foreshadowing Study",
+        "summary": "",
+        "image": "http://https://fiction.coach/assets/images/posts/resized/desk/arya-mountain.jpg",
+        "date_published": "20 June 2018",
+        "date_published": "20 June 2018",
+        "author": {
+            "name": "Richard Crimson"
+        },
+        "tags": ["On Writing", "Book Studies", "Series", "GoT", "Game of Thrones", "Foreshadowing"]
+     }, 
+     {
+        "url": "http://https://fiction.coach/2018/06/the-theme-of-harry-potter",
+        "title": "The Theme of Harry Potter",
+        "summary": "",
+        "image": "http://https://fiction.coach/assets/images/posts/resized/desk/jk-rowling.jpg",
+        "date_published": "18 June 2018",
+        "date_published": "18 June 2018",
+        "author": {
+            "name": "Richard Crimson"
+        },
+        "tags": ["On Writing", "Book Studies", "Movies", "JK Rowling", "Harry Potter", "Theme"]
+     }, 
+     {
+        "url": "http://https://fiction.coach/2018/06/jk-rowling-foreshadowing-mystery-pacing-and-suspense",
+        "title": "How Rowling used Foreshadowing, Mystery, Pacing and Suspense",
+        "summary": "The way Rowling wrote Harry Potter is nothing short of genius. That much we all know.<br/><br/>But the reason why Harry Potter became such a success is because <strong>the story of Harry Potter is a very good mystery story.</strong><br/><br/>Let's see why Harry Potter is such an addictive and rewarding book.",
+        "image": "http://https://fiction.coach/assets/images/posts/resized/desk/jk-rowling.jpg",
+        "date_published": "18 June 2018",
+        "date_published": "18 June 2018",
+        "author": {
+            "name": "Richard Crimson"
+        },
+        "tags": ["On Writing", "Book Studies", "Movies", "JK Rowling", "Harry Potter", "Foreshadowing"]
+     }, 
+     {
+        "url": "http://https://fiction.coach/2018/06/why-starks-will-always-lose-game-of-thrones",
+        "title": "Why Starks Will Always Lose Game Of Thrones",
         "summary": "\n",
-        "image": "http://localhost:4000",
-        "date_published": "03 June 2018",
-        "date_published": "03 June 2018",
+        "image": "http://https://fiction.coach",
+        "date_published": "13 June 2018",
+        "date_published": "13 June 2018",
         "author": {
             "name": "Richard Crimson"
         },
         "tags": []
      }, 
      {
-        "url": "http://localhost:4000/2018/06/how-to-write-a-good-story",
-        "title": "How to Write A Good Story",
-        "summary": "You had a great idea and you already started about a dozen times in your head. <br /><br /> Yet you choke in front of your keyboard. <br /><br /> The cursor mocks you. <br /><br /> <strong>Blink.</strong>",
-        "image": "http://localhost:4000/assets/images/posts/resized/desk/good-story.jpg",
-        "date_published": "01 June 2018",
-        "date_published": "01 June 2018",
+        "url": "http://https://fiction.coach/2018/06/jk-rowling-story-structure",
+        "title": "How Rowling used Story Structure",
+        "summary": "",
+        "image": "http://https://fiction.coach/assets/images/posts/resized/desk/jk-rowling.jpg",
+        "date_published": "11 June 2018",
+        "date_published": "11 June 2018",
         "author": {
             "name": "Richard Crimson"
         },
-        "tags": ["On Writing"]
+        "tags": ["On Writing", "Book Studies", "Movies", "JK Rowling", "Harry Potter", "Structure"]
      }, 
      {
-        "url": "http://localhost:4000/2018/06/how-an-editor-knows-if-your-writing-is-good",
+        "url": "http://https://fiction.coach/2018/06/how-to-write-like-jk-rowling",
+        "title": "How to write like JK Rowling",
+        "summary": "You just come up with an awesome universe and spend five years world-building. Easy!<br/><br/>Jokes aside, if you still want to know how JK Rowling wrote Harry Potter, you need to know:<br/><br/>&bull; how Rowling used story structure;<br/><br/>&bull; how Rowling used mystery, pacing and suspense;<br/><br/>&bull; how to create characters like JK Rowling.",
+        "image": "http://https://fiction.coach/assets/images/posts/resized/desk/jk-rowling.jpg",
+        "date_published": "10 June 2018",
+        "date_published": "10 June 2018",
+        "author": {
+            "name": "Richard Crimson"
+        },
+        "tags": ["On Writing", "JK Rowling", "Harry Potter"]
+     }, 
+     {
+        "url": "http://https://fiction.coach/2018/06/how-to-use-foreshadowing",
+        "title": "How To Write Bestsellers: Foreshadowing",
+        "summary": "It's simpler than it sounds and yet so challenging to master.<br/><br/>Hey, welcome to writing fiction!<br/><br/>Now, don't panic. You'll stand out and you'll see how your story skyrockets to the next level.",
+        "image": "http://https://fiction.coach/assets/images/posts/resized/desk/foreshadowing-darth-vader.jpg",
+        "date_published": "07 June 2018",
+        "date_published": "07 June 2018",
+        "author": {
+            "name": "Richard Crimson"
+        },
+        "tags": ["On Writing", "Foreshadowing"]
+     }, 
+     {
+        "url": "http://https://fiction.coach/2018/06/how-an-editor-knows-if-your-writing-is-good",
         "title": "How an Editor Knows If Your Writing is Good",
         "summary": "Developmental editing is a complex and dying craft.<br /><br />Because if you want to do that, you need to know the process and the mechanics of a story inside and out.<br /><br />And you can only do that if you know what a story is made of.",
-        "image": "http://localhost:4000/assets/images/posts/resized/desk/editors-at-work.jpg",
+        "image": "http://https://fiction.coach/assets/images/posts/resized/desk/editors-at-work.jpg",
+        "date_published": "07 June 2018",
+        "date_published": "07 June 2018",
+        "author": {
+            "name": "Richard Crimson"
+        },
+        "tags": ["On Writing"]
+     }, 
+     {
+        "url": "http://https://fiction.coach/2018/06/why-your-fiction-sucks",
+        "title": "Why Your Fiction Sucks",
+        "summary": "'It's a fantasy novel. Well, a trilogy, actually!'<br /><br />Look at that. Obviously, that is the sentence that has the hairs raised on the back of your editor or someone who knows how a story works.",
+        "image": "http://https://fiction.coach/assets/images/posts/why-your-fiction-sucks-1.jpg",
+        "date_published": "04 June 2018",
+        "date_published": "04 June 2018",
+        "author": {
+            "name": "Richard Crimson"
+        },
+        "tags": ["On Writing"]
+     }, 
+     {
+        "url": "http://https://fiction.coach/2018/06/the-long-walk",
+        "title": "The Long Walk - How far will you go to take your next breath?",
+        "summary": "Before The Hunger Games, there was The Long Walk. <br /> <br /> And it has a rawness that reflects the drive and hunger of a young Stephen King.",
+        "image": "http://https://fiction.coach/assets/images/posts/resized/desk/the-long-walk.jpg",
+        "date_published": "03 June 2018",
+        "date_published": "03 June 2018",
+        "author": {
+            "name": "Richard Crimson"
+        },
+        "tags": ["Stephen King", "Book Studies", "Writing Voice", "Theme", "Concept", "Character Development", "Voice"]
+     }, 
+     {
+        "url": "http://https://fiction.coach/2018/06/spiderman-homecoming",
+        "title": "Spiderman Homecoming",
+        "summary": "\n",
+        "image": "http://https://fiction.coach",
+        "date_published": "03 June 2018",
+        "date_published": "03 June 2018",
+        "author": {
+            "name": "Richard Crimson"
+        },
+        "tags": []
+     }, 
+     {
+        "url": "http://https://fiction.coach/2018/06/how-to-write-a-good-story",
+        "title": "How to Write A Good Story",
+        "summary": "You had a great idea and you already started about a dozen times in your head. <br /><br /> Yet you choke in front of your keyboard. <br /><br /> The cursor mocks you. <br /><br /> <strong>Blink.</strong>",
+        "image": "http://https://fiction.coach/assets/images/posts/resized/desk/good-story.jpg",
         "date_published": "01 June 2018",
         "date_published": "01 June 2018",
         "author": {
@@ -78,40 +186,40 @@
         "tags": ["On Writing"]
      }, 
      {
-        "url": "http://localhost:4000/2018/05/whats-marvels-overall-theme",
+        "url": "http://https://fiction.coach/2018/05/whats-marvels-overall-theme",
         "title": "What's Marvel's Overall Theme?",
         "summary": "It’s not the best movie franchise that ever was, but it’s the most popular at the moment. <br /> <br /> Why is the theme of these stories a theme about complicated relationships with fathers?",
-        "image": "http://localhost:4000/assets/images/posts/resized/desk/whats-the-marvel-theme.jpg",
+        "image": "http://https://fiction.coach/assets/images/posts/resized/desk/whats-the-marvel-theme.jpg",
         "date_published": "29 May 2018",
         "date_published": "29 May 2018",
         "author": {
             "name": "Richard Crimson"
         },
-        "tags": ["Marvel", "Theme", "Thanos", "Iron Man", "Character Development"]
+        "tags": ["Movies", "Marvel", "Theme", "Thanos", "Iron Man", "Character Development"]
      }, 
      {
-        "url": "http://localhost:4000/2018/05/why-the-jedi-order-is-the-antagonist-of-star-wars",
+        "url": "http://https://fiction.coach/2018/05/why-the-jedi-order-is-the-antagonist-of-star-wars",
         "title": "Why Jedis are the perfect antagonists",
         "summary": "Even if the Jedi order holds no perverse pleasure in torturing its padwans, emotionally abandoning a kid to his own devices could result in some pretty permanent psychological traumas.<br /><br />Or Darth Vader.<br /><br />When it comes to Jedis, George Lucas made one of two things: an error or something brilliant.",
-        "image": "http://localhost:4000/assets/images/posts/resized/desk/jedis.jpg",
+        "image": "http://https://fiction.coach/assets/images/posts/resized/desk/jedis.jpg",
         "date_published": "10 May 2018",
         "date_published": "10 May 2018",
         "author": {
             "name": "Richard Crimson"
         },
-        "tags": ["Star Wars", "SW", "Darth Vader", "Villains", "Character"]
+        "tags": ["Movies", "Star Wars", "SW", "Darth Vader", "Villains", "Character"]
      }, 
      {
-        "url": "http://localhost:4000/2018/05/what-if-the-night-king-isnt-the-bad-guy",
+        "url": "http://https://fiction.coach/2018/05/what-if-the-night-king-isnt-the-bad-guy",
         "title": "What if the Night King Isn't the Bad Guy?",
         "summary": "Many people speculate that the north and the south will eventually rally up to defeat the white walkers. <br /><br /> A great tolkien-esque ending. One that Martin is most likely against of.",
-        "image": "http://localhost:4000/assets/images/posts/resized/desk/night-king.jpg",
+        "image": "http://https://fiction.coach/assets/images/posts/resized/desk/night-king.jpg",
         "date_published": "03 May 2018",
         "date_published": "03 May 2018",
         "author": {
             "name": "Richard Crimson"
         },
-        "tags": ["Game Of Thrones", "GoT", "Villains", "Story"]
+        "tags": ["Series", "Book Studies", "Game Of Thrones", "GoT", "Villains", "Story"]
      }
   ]
 }

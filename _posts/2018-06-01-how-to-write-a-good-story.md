@@ -87,9 +87,7 @@ But just suppose there's a roadmap &#224; la Google, where you have all the pins
 
 Well, **Fantastic Five** does just that and it **eliminates the endless number of drafts you might bang out in frustration,** as you discover your story.
 
-Let's see what this is all about.
-
-## Define, learn and apply
+**What is this is all about?**
 
 <div id="theme"></div>
 ### 1. Theme
@@ -140,6 +138,8 @@ I know you're thinking about the same old boring "beginning, middle and the end"
 You need to learn:
 - what a hook is: **the first thing someone reads from your page that makes them want to know more and want to know the story**
 
+If you already know [the Harry Potter hook]({% post_url 2018-06-18-jk-rowling-foreshadowing-mystery-pacing-and-suspense %}#the-hook), here's a quick example:
+
 <blockquote class="nk-blockquote">
     <div class="nk-blockquote-icon">&ldquo;</div>
     <p>It was hell's season, and the air smelled of burning children.</p>
@@ -153,7 +153,7 @@ You need to learn:
     <div class="nk-blockquote-icon">&ldquo;</div>
     <ol>
       <li>
-        <strong>Call to adventure</strong>: the inciting incident you provide; comes after the hook and before the next plot point
+        <strong>Call to adventure</strong>: the inciting incident you provide; comes <strong>after the hook</strong> and <strong>before the Beginning of transformation</strong>
 
         <p><strong>example: Harry Potter gets his letter of admission from Hogwarts</strong></p>
       </li>
@@ -175,11 +175,12 @@ You need to learn:
     </ol>
 </blockquote>
 
-- [how to use foreshadowing]("") and set up expectations
-- how to build your scenes, so that we root for your hero **[from the very first few pages]({% post_url 2018-05-07-how-an-editor-knows-if-your-writing-is-good %})** (this is a combination of character and structure, provided you've got a [great hook](#hook))
-- [how to alter your pacing](#), so as not to tire or bore your readers
-- [how to keep the mystery going]({% post_url 2018-06-10-how-jk-rowling-made-harry-potter-a-mystery %}) by baiting and rewarding your readers
+In addition to story structure, you need to know:
 
+- [how to use foreshadowing]({% post_url 2018-06-07-how-to-use-foreshadowing %}) and set up expectations
+- [how to build your scenes]({% post_url 2018-07-02-jk-rowling-series-order-phoenix %}), so that we root for your hero **[from the very first few pages]({% post_url 2018-06-07-how-an-editor-knows-if-your-writing-is-good %})** (this is a combination of character and structure, provided you've got a [great hook]({% post_url 2018-06-18-jk-rowling-foreshadowing-mystery-pacing-and-suspense %}#the-hook)
+- [how to alter your pacing]({% post_url 2018-06-18-jk-rowling-foreshadowing-mystery-pacing-and-suspense %}#the-pacing-and-suspense), so as not to tire or bore your readers
+- [how to keep the mystery going]({% post_url 2018-06-10-how-to-write-like-jk-rowling %}) by baiting and rewarding your readers
 
 All of these and much more have a place in the story structure part.
 
@@ -190,15 +191,15 @@ The smoky and velvety writing voice that delivers the story to the reader.
 
 Your voice.
 
-You can be clean like Rowling or you can be cool like Stephen King. Either way, [your voice must deliver the story, not stand in its way](#).
+You can be clean like Rowling or you can be cool like Stephen King. Either way, your voice must deliver the story, not stand in its way.
 
 **Your writing voice will also communicate about how literate you are and how well you can invoke feelings and memories at the snap of the fingers.** The best writers carry that ability and they perfect it with every book they write and publish.
 
 Remember, **to have a strong writing voice, you need to read from multiple genres.** Not just fantasy or science fiction.
 
-## Ok, these checkpoints help me out. Now what?
+## Ok, these checkpoints help. Now what?
 
-You need to get your favorite story, be it Harry Potter, The Hunger Games, David Copperfield (the book, not the illusionist) and dissect it like a professional, based on those five checkpoints you just read about.
+You need to get your favorite story, be it Harry Potter, The Hunger Games or The Shining and dissect it like a professional, based on those five checkpoints you just read about.
 
 Just picture yourself as the editor and analyze the story like one.
 
@@ -208,9 +209,18 @@ This is no mere storyboard planning, or plotting, or whatever you want to call i
 
 I'm talking about charging through your story with the knowledge that **these are the five things you need to cover, if you want to have a good story on your hands.**
 
-If you're thinking about the various combinations of story structure with the other elements of theme, concept, character and voice, we've got more of this covered in the [free Fantastic Five email course]({{site.url}}/free-courses/fantastic-five/).
+If you're thinking about the various combinations of story structure with the other elements of theme, concept, character and voice, we've got all of this covered and more in the [Fiction Coach Masterclass](https://www.subscribepage.com/t0a3y5).
 
-Just think about this: you'll never suffer from writer's block again (yes, I can promise you that, once you'll define, learn and apply [theme](#theme), [concept](#concept), [character](#character), [structure](#structure) and [voice](#voice) to your stories).
+Or if you want something to whet your appetite, check out the [Fantastic Five free email course]({{site.url}}/free-courses/fantastic-five/).
+
+Just think about this: you'll never suffer from writer's block again, once you'll define, learn and apply
+- [theme](#theme),
+- [concept](#concept),
+- [character](#character),
+- [structure](#structure)
+- and [voice](#voice)
+
+to your stories.
 
 ## Obviously, there are a bunch of celebrity authors that have this covered.
 
@@ -218,7 +228,7 @@ Ask yourself this:
 
 <blockquote class="nk-blockquote">
     <div class="nk-blockquote-icon">&ldquo;</div>
-    <p>how did authors like Neil Gaiman, JK Rowling, Stephen King and so many, manage to become so popular and successful at their craft?</p>
+    <p>How did authors like Neil Gaiman, JK Rowling, Stephen King and so many others manage to become so popular and successful at their craft?</p>
 </blockquote>
 
 You can clearly see that there's a pattern: <strong>they all know how to write great stories</strong>.
@@ -235,7 +245,7 @@ This is what Fiction Coach is all about: making [case studies]({{site.url}}/case
 - structure
 - voice
 
-All published stories have strengths and weaknesses, but they have all met the minimum requirements for these five checkpoints.
+All published stories have strengths and weaknesses, but they've all met the minimum requirements for these five checkpoints.
 
 ## Sum of the parts
 
@@ -243,7 +253,7 @@ A great story is like a professional athlete. You'll find that this comparison i
 
 Apparently an athlete can't function just with their heart or just with their lungs or just with their feet. They need the whole of the body to be in peak condition, come competition day.
 
-So just as the elite athlete grinds hours upon hours on their craft, to get even the smallest detail perfected, their breath, their rhythm, their heart rate, everything, you'll need to add hours to your study.
+So just as professional athletes grind hours upon hours on their craft, to get even the smallest detail perfected, their breath, their rhythm, their heart rate, everything, you'll need to add hours to your study.
 
 And [learn the Fantastic Five]({{site.url}}/free-courses/fantastic-five/) :)
 
@@ -251,4 +261,6 @@ And then apply what you learn to your project.
 
 It may be anything, from writing a short story, to writing a novella or even that novel you've been dreaming about since you were a kid.
 
-The demands are high. But now you have someone to coach you :)
+The demands are high. But now you have someone to coach you.
+
+Talk soon.

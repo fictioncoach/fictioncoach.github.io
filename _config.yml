@@ -63,7 +63,7 @@ tag_page_data:
 tag_permalink_style: pretty
 tag_page_layout: tags
 tag_page_dir: tag
-tag_cloud: ["Character", "Concept", "Darth Vader", "Editor advice", "Fantastic Beasts", "Game Of Thrones", "got", "Harry Potter", "JK Rowling", "Star Wars", "SW", "Structure", "Theme", "Villains", "Voice"]
+tag_cloud: ["Book Studies", "Character", "Concept", "Darth Vader", "Editor advice", "Fantastic Beasts", "Foreshadowing", "Games", "Game Of Thrones", "got", "Harry Potter", "JK Rowling", "Movies", "Series", "Star Wars", "SW", "Structure", "Theme", "Villains", "Voice"]
 
 sitemap_list_title: Fiction Coach Sitemap
 sitemap:
@@ -81,13 +81,13 @@ sitemap:
   url: case-studies
   subfolderitems:
     - page: Book Studies
-      url: /book-studies
+      url: /tag/book-studies
     - page: Series
-      url: /series
+      url: /tag/series
     - page: Movies
-      url: /movies
+      url: /tag/movies
     - page: Games
-      url: /games
+      url: /tag/games
 - title: On Writing
   url: on-writing
   subfolderitems:
@@ -112,19 +112,23 @@ header_navigation:
   subfolderitems:
     - page: Book Studies
       categ: "books"
-      url: /book-studies
+      url: /tag/book-studies
     - page: Series
       categ: "series"
-      url: /series
+      url: /tag/series
     - page: Movies
       categ: "movies"
-      url: /movies
+      url: /tag/movies
     - page: Games
       categ: "games"
-      url: /games
+      url: /tag/games
 - title: On Writing
   url: on-writing
   subfolderitems:
+    - page: Foreshadowing
+      url: /tag/foreshadowing
+    - page: Write like Rowling
+      url: /2018/06/how-to-write-like-jk-rowling
     - page: Theme
       url: /tag/theme
     - page: Concept
@@ -143,16 +147,16 @@ header_navigation:
 category_tree:
 - page: Book Studies
   categ: "books"
-  url: /book-studies
+  url: /tag/book-studies
 - page: Series
   categ: "series"
-  url: /series
+  url: /tag/series
 - page: Movies
   categ: "movies"
-  url: /movies
+  url: /tag/movies
 - page: Games
   categ: "games"
-  url: /games
+  url: /tag/games
 - page: On Writing
   categ: "writing"
   url: /on-writing
@@ -168,10 +172,10 @@ footer_nav_col_1:
     url: /sitemap.html
 footer_nav_col_2:
   - title: Book Studies
-    url: /book-studies.html
+    url: /tag/book-studies.html
   - title: Series
-    url: /series.html
+    url: /tag/series.html
   - title: Movies
-    url: /movies.html
+    url: /tag/movies.html
   - title: Games
-    url: /games.html
+    url: /tag/games.html

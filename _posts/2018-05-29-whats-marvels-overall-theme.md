@@ -9,7 +9,7 @@ pic: "whats-the-marvel-theme.jpg"
 video: ""
 audio: "449831124"
 excerpt: "It’s not the best movie franchise that ever was, but it’s the most popular at the moment. <br /> <br /> Why is the theme of these stories a theme about complicated relationships with fathers?"
-tags: ["Marvel", "Theme", "Thanos", "Iron Man", "Character Development"]
+tags: ["Movies", "Marvel", "Theme", "Thanos", "Iron Man", "Character Development"]
 img_copyright: "https://marvel.com/movies"
 ---
 It’s not the best movie franchise that ever was, but it’s the most popular at the moment.

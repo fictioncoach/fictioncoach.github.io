@@ -31,24 +31,12 @@ layout: default
                                 <table class="meta_dtls">
                                     <tbody>
                                         <tr>
-                                            <td><strong>Published:</strong> &nbsp;&nbsp;&nbsp;</td>
+                                            <td><strong>Published:</strong>&nbsp;</td>
                                             <td>{{page.date | date_to_long_string}}</td>
                                         </tr>
-
-                                        <tr>
-                                            <td><strong>Category:</strong> &nbsp;&nbsp;&nbsp;</td>
-                                            <td>
-                                              {% for item in site.category_tree %}
-                                                {% if page.category == item.categ %}
-                                                  <a href="{{site.url}}{{item.url}}">{{item.page  | capitalize}}</a>
-                                                {% endif %}
-                                              {% endfor %}
-                                            </td>
-                                        </tr>
-
                                         <tr>
                                             <td>
-                                                <strong>Written by:</strong> &nbsp;&nbsp;&nbsp;
+                                                <strong>Written by:</strong>
                                             </td>
                                             <td>
                                                 <a href="{{site.url}}/contact.html">Richard Crimson</a>
@@ -57,7 +45,7 @@ layout: default
 
                                         {% if page.img_copyright %}
                                         <tr class="small_fonting">
-                                            <td><strong>Image credit:</strong> &nbsp;&nbsp;&nbsp;</td>
+                                            <td><strong>Image credit:</strong></td>
                                             <td>
                                               <em><a href="{{page.img_copyright}}" target="_blank" rel="noreferrer nofollow external">{{page.img_copyright}}</a></em>
                                             </td>
@@ -149,13 +137,12 @@ layout: default
                         </h4>
 
                         <div class="nk-post-author-info">
-                          <p class="text-left">Developmental editor and main writer at <a href="https://fiction.coach"><i class="fas fa-book"></i> Fiction Coach</a></p>
+                          <p class="text-left">Story engineer at <a href="https://fiction.coach"><i class="fas fa-book"></i> Fiction Coach</a></p>
                           <p class="py-0 mb-0 text-left">You can also find me here:</p>
                           <ul class="socials text-left">
                             <li class="medium"><a href="https://medium.com/@theplotdude" title="Medium" target="_blank" rel="noopener"><img width="30" src="{{ "/assets/images/medium.svg" | prepend: site.baseurl }}" alt="Medium"></a></li>
                             <li class="quora"><a href="https://www.quora.com/profile/Richard-Crimson-1" title="Quora" target="_blank" rel="noopener"><img width="30" src="{{ "/assets/images/quora.svg" | prepend: site.baseurl }}" alt="Quora"></a></li>
-                            <li class="insta"><a href="https://www.instagram.com/theplotdude/" title="Instagram" target="_blank" rel="noopener"><img width="30" src="{{ "/assets/images/instagram.svg" | prepend: site.baseurl }}" alt="Instagram"></a></li>
-                            <li class="small_font"><span><img class="inline-block" src="{{ "/assets/images/m_svg.png" | prepend: site.baseurl }}" alt="gmail" width="30"> theplotdude</span></li>
+                            <li class="small_font"><span><img class="inline-block" src="{{ "/assets/images/m_svg.png" | prepend: site.baseurl }}" alt="gmail" width="30"> theplotdude [at] gmail [dot] com</span></li>
                           </ul>
                         </div>
                     </div>

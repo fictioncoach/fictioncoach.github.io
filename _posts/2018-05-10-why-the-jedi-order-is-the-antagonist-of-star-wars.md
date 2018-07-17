@@ -8,7 +8,7 @@ pic: "jedis.jpg"
 video: ""
 audio: ""
 excerpt: "Even if the Jedi order holds no perverse pleasure in torturing its padwans, emotionally abandoning a kid to his own devices could result in some pretty permanent psychological traumas.<br /><br />Or Darth Vader.<br /><br />When it comes to Jedis, George Lucas made one of two things: an error or something brilliant."
-tags: ["Star Wars", "SW", "Darth Vader", "Villains", "Character"]
+tags: ["Movies", "Star Wars", "SW", "Darth Vader", "Villains", "Character"]
 img_copyright: "https://misterrecord.deviantart.com/"
 ---
 When it comes to Jedis, George Lucas made one of two things: an error or something brilliant. We'll see why in a moment.
