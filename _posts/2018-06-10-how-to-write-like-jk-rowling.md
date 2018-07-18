@@ -19,7 +19,7 @@ Easy!
 Jokes aside, if you want to know how JK Rowling wrote Harry Potter, here's what you need to know
 
 - [how Rowling used story structure]({% post_url 2018-06-11-jk-rowling-story-structure %})
-- [how Rowling used foreshadowing, mystery, pacing and suspense]({% post_url 2018-06-18-jk-rowling-foreshadowing-mystery-pacing-and-suspense %})
+- [how Rowling used foreshadowing, mystery, pacing and suspense]({% post_url 2018-07-18-jk-rowling-foreshadowing-mystery-pacing-and-suspense %})
 - [how Rowling created her Harry Potter characters]({% post_url 2018-06-25-harry-potter-characters %})
 - [how Rowling uses series as threads for Order of The Phoenix plot]({% post_url 2018-07-02-jk-rowling-series-order-phoenix %})
 - [what the theme of Harry Potter is all about]({% post_url 2018-07-09-the-theme-of-harry-potter %})
@@ -30,7 +30,7 @@ With that being said, happy reading!
 
 Oh, and don't forget to check out the [Fantastic Five free email course]({{site.url}}/free-courses/fantastic-five/). That will give you a very good head start in learning all of the above.
 
-But if you want to get serious about it, sign up for the waiting list of the [Fiction Coach Masterclass](https://www.subscribepage.com/t0a3y5).
+But if you want to get serious about it, sign up for the waiting list of the [Fiction Coach Masterclass]({{site.url}}/masterclass).
 
 Talk soon.
 

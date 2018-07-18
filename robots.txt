@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://https://fiction.coach/sitemap.xml
+Sitemap: https://fiction.coach/sitemap.xml

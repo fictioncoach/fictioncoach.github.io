@@ -104,9 +104,28 @@ sitemap:
     - page: Editor's orders
       url: /tag/on-writing
 
+left_header_navigation:
+  - title: On Writing
+    url: on-writing
+    subfolderitems:
+      - page: Foreshadowing
+        url: /tag/foreshadowing
+      - page: Write like Rowling
+        url: /2018/06/how-to-write-like-jk-rowling
+      - page: Theme
+        url: /tag/theme
+      - page: Concept
+        url: /tag/concept
+      - page: Character
+        url: /tag/character
+      - page: Structure
+        url: /tag/structure
+      - page: Voice
+        url: /tag/voice
+      - page: Editor's orders
+        url: /tag/on-writing
+
 header_navigation:
-- title: Home
-  url: ""
 - title: Case Studies
   url: case-studies
   subfolderitems:
@@ -122,27 +141,6 @@ header_navigation:
     - page: Games
       categ: "games"
       url: /tag/games
-- title: On Writing
-  url: on-writing
-  subfolderitems:
-    - page: Foreshadowing
-      url: /tag/foreshadowing
-    - page: Write like Rowling
-      url: /2018/06/how-to-write-like-jk-rowling
-    - page: Theme
-      url: /tag/theme
-    - page: Concept
-      url: /tag/concept
-    - page: Character
-      url: /tag/character
-    - page: Structure
-      url: /tag/structure
-    - page: Voice
-      url: /tag/voice
-    - page: Editor's orders
-      url: /tag/on-writing
-- title: About & Contact
-  url: contact.html
 
 category_tree:
 - page: Book Studies
@@ -163,19 +161,21 @@ category_tree:
 
 footer_nav_col_1:
   - title: Contact
-    url: /contact.html
+    url: /contact
+  - title: About
+    url: /about
   - title: How we use cookies
-    url: /cookies.html
+    url: /cookies
   - title: Privacy Policy
-    url: /privacy.html
+    url: /privacy
   - title: Sitemap
-    url: /sitemap.html
+    url: /sitemap
 footer_nav_col_2:
   - title: Book Studies
-    url: /tag/book-studies.html
+    url: /tag/book-studies
   - title: Series
-    url: /tag/series.html
+    url: /tag/series
   - title: Movies
-    url: /tag/movies.html
+    url: /tag/movies
   - title: Games
-    url: /tag/games.html
+    url: /tag/games

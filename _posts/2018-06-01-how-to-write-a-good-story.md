@@ -138,7 +138,7 @@ I know you're thinking about the same old boring "beginning, middle and the end"
 You need to learn:
 - what a hook is: **the first thing someone reads from your page that makes them want to know more and want to know the story**
 
-If you already know [the Harry Potter hook]({% post_url 2018-06-18-jk-rowling-foreshadowing-mystery-pacing-and-suspense %}#the-hook), here's a quick example:
+If you already know [the Harry Potter hook]({% post_url 2018-07-18-jk-rowling-foreshadowing-mystery-pacing-and-suspense %}#the-hook), here's a quick example:
 
 <blockquote class="nk-blockquote">
     <div class="nk-blockquote-icon">&ldquo;</div>
@@ -178,8 +178,8 @@ If you already know [the Harry Potter hook]({% post_url 2018-06-18-jk-rowling-fo
 In addition to story structure, you need to know:
 
 - [how to use foreshadowing]({% post_url 2018-06-07-how-to-use-foreshadowing %}) and set up expectations
-- [how to build your scenes]({% post_url 2018-07-02-jk-rowling-series-order-phoenix %}), so that we root for your hero **[from the very first few pages]({% post_url 2018-06-07-how-an-editor-knows-if-your-writing-is-good %})** (this is a combination of character and structure, provided you've got a [great hook]({% post_url 2018-06-18-jk-rowling-foreshadowing-mystery-pacing-and-suspense %}#the-hook)
-- [how to alter your pacing]({% post_url 2018-06-18-jk-rowling-foreshadowing-mystery-pacing-and-suspense %}#the-pacing-and-suspense), so as not to tire or bore your readers
+- [how to build your scenes]({% post_url 2018-07-02-jk-rowling-series-order-phoenix %}), so that we root for your hero **[from the very first few pages]({% post_url 2018-06-07-how-an-editor-knows-if-your-writing-is-good %})** (this is a combination of character and structure, provided you've got a [great hook]({% post_url 2018-07-18-jk-rowling-foreshadowing-mystery-pacing-and-suspense %}#the-hook)
+- [how to alter your pacing]({% post_url 2018-07-18-jk-rowling-foreshadowing-mystery-pacing-and-suspense %}#the-pacing-and-suspense), so as not to tire or bore your readers
 - [how to keep the mystery going]({% post_url 2018-06-10-how-to-write-like-jk-rowling %}) by baiting and rewarding your readers
 
 All of these and much more have a place in the story structure part.
@@ -209,7 +209,7 @@ This is no mere storyboard planning, or plotting, or whatever you want to call i
 
 I'm talking about charging through your story with the knowledge that **these are the five things you need to cover, if you want to have a good story on your hands.**
 
-If you're thinking about the various combinations of story structure with the other elements of theme, concept, character and voice, we've got all of this covered and more in the [Fiction Coach Masterclass](https://www.subscribepage.com/t0a3y5).
+If you're thinking about the various combinations of story structure with the other elements of theme, concept, character and voice, we've got all of this covered and more in the [Fiction Coach Masterclass]({{site.url}}/masterclass).
 
 Or if you want something to whet your appetite, check out the [Fantastic Five free email course]({{site.url}}/free-courses/fantastic-five/).
 

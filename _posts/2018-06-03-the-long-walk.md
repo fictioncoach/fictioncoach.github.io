@@ -172,7 +172,7 @@ And that's Stebbins.
 
 ### The antagonist popping up in the key moments
 
-Just like we learn in the <a href="https://www.subscribepage.com/t0a3y5" target="_blank">Fiction Coach Masterclass</a>, **Stebbins pops up in those key moments** where a bad guy usually pops up in a story:
+Just like we learn in the <a>Fiction Coach Masterclass</a>, **Stebbins pops up in those key moments** where a bad guy usually pops up in a story:
 
   1. **Call to adventure:** [The first boy gets his ticket](#call-to-adventure)
   2. **Beginning of transformation:** [Stebbins foreshadows the relationship between Garraty and McVries by the end of the walk](#beginning-of-transformation)
@@ -242,7 +242,7 @@ McVries, like the "big blond" who lost, is "built like a bull." And McVries, as 
 <div id="the-resurrection"></div>
 4) When Stebbins finally guesses Garraty's fears and marks **the decision of the main character to fight back and walk Stebbins into the ground.** This is also known as "the resurrection".
 
-In the <a href="https://www.subscribepage.com/t0a3y5" target="_blank">Fiction Coach Masterclass</a>, we get to know all about these crucial checkpoints in our story, **where the [theme]({% post_url 2018-06-01-how-to-write-a-good-story %}#theme), [concept]({% post_url 2018-06-01-how-to-write-a-good-story %}#concept), [main character]({% post_url 2018-06-01-how-to-write-a-good-story %}#character) and [story structure]({% post_url 2018-06-01-how-to-write-a-good-story %}#structure) combined give you the secret superpower of a great story.**
+In the <a>Fiction Coach Masterclass</a>, we get to know all about these crucial checkpoints in our story, **where the [theme]({% post_url 2018-06-01-how-to-write-a-good-story %}#theme), [concept]({% post_url 2018-06-01-how-to-write-a-good-story %}#concept), [main character]({% post_url 2018-06-01-how-to-write-a-good-story %}#character) and [story structure]({% post_url 2018-06-01-how-to-write-a-good-story %}#structure) combined give you the secret superpower of a great story.**
 
 Here's the point of no return for Garraty:
 

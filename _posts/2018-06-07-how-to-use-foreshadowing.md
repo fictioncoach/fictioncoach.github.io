@@ -174,7 +174,7 @@ Actually, **foreshadowing is very useful when it comes to building a character a
     <p>Foreshadowing is used to make the characters believable and fleshed out.</p>
 </blockquote>
 
- You can find out more about foreshadowing and character development in the upcoming [Fiction Coach Masterclass](https://www.subscribepage.com/t0a3y5) or you can check out the post about [how Arya kills The Mountain has been foreshadowed]({% post_url 2018-06-20-how-arya-kills-the-mountain-foreshadowing %}), based on the heavy foreshadowing that George Martin has used when building her character.
+ You can find out more about foreshadowing and character development in the upcoming [Fiction Coach Masterclass]({{site.url}}/masterclass/) or you can check out the post about [how Arya kills The Mountain has been foreshadowed]({% post_url 2018-06-20-how-arya-kills-the-mountain-foreshadowing %}), based on the heavy foreshadowing that George Martin has used when building her character.
 
 <div id="and-where"></div>
 ## Ok. Got it. Where do I use foreshadowing?

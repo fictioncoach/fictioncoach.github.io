@@ -2,7 +2,24 @@
     <div class="container">
         <div class="nk-nav-table">
 
-            <a href="{{site.url}}" class="nk-nav-logo">
+          <ul class="nk-nav nk-nav-left d-none d-lg-block" data-nav-mobile="#nk-nav-mobile">
+            {% for item in site.left_header_navigation %}
+              <li class="{% if item.subfolderitems %} nk-drop-item {% endif %} {% if item.url == page.url %} active {% endif %}">
+                <a href="{{ site.url }}/{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a>
+                {% if item.subfolderitems %}
+                  <ul class="dropdown">
+                    {% for entry in item.subfolderitems %}
+                      <li class="{% if item.url == page.url %} active {% endif %}">
+                        <a href="{{ site.url }}{{ entry.url }}">{{ entry.page }}</a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+
+            <a href="{{site.url}}" class="nk-nav-logo nk-nav-center">
                 <img src="{{ "/assets/images/f_black.svg" | prepend: site.url }}" alt="" width="120">
             </a>
 
