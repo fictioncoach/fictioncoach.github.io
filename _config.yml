@@ -11,7 +11,7 @@ paginate_path   : "/page:num/"
 _ga : "UA-120149424-1"
 
 author: "Richard Crimson"
-image: "/assets/images/header1.jpg"
+image: "/assets/images/red.png"
 
 # Build settings
 permalink     : /:year/:month/:title
