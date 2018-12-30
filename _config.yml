@@ -63,13 +63,38 @@ tag_page_data:
 tag_permalink_style: pretty
 tag_page_layout: tags
 tag_page_dir: tag
-tag_cloud: ["Book Studies", "Character", "Concept", "Darth Vader", "Editor advice", "Fantastic Beasts", "Foreshadowing", "Games", "Game Of Thrones", "got", "Harry Potter", "JK Rowling", "Movies", "Series", "Star Wars", "SW", "Structure", "Theme", "Villains", "Voice"]
+tag_cloud: [
+  "Book Studies",
+  "Character",
+  "Concept",
+  "Darth Vader",
+  "Fantastic Beasts",
+  "Foreshadowing",
+  "Games",
+  "Game Of Thrones",
+  "got",
+  "GOT",
+  "Harry Potter",
+  "How To Build Your Author Platform",
+  "JK Rowling",
+  "Movies",
+  "Series",
+  "Star Wars",
+  "sw",
+  "SW",
+  "Structure",
+  "Theme",
+  "Villains",
+  "Voice"
+]
 
 sitemap_list_title: Fiction Coach Sitemap
 sitemap:
 - title: Home
   url: /
-- title: About & Contact
+- title: About
+  url: about
+- title: Contact
   url: contact
 - title: How We Use Cookies
   url: cookies
@@ -88,7 +113,7 @@ sitemap:
       url: /tag/movies
     - page: Games
       url: /tag/games
-- title: On Writing
+- title: Editors On Writing
   url: on-writing
   subfolderitems:
     - page: Theme
@@ -101,11 +126,11 @@ sitemap:
       url: /tag/structure
     - page: Voice
       url: /tag/voice
-    - page: Editor's orders
+    - page: Editors on writing
       url: /tag/on-writing
 
 left_header_navigation:
-  - title: On Writing
+  - title: Articles
     url: on-writing
     subfolderitems:
       - page: Foreshadowing
@@ -122,25 +147,37 @@ left_header_navigation:
         url: /tag/structure
       - page: Voice
         url: /tag/voice
-      - page: Editor's orders
+      - page: Editors on writing
         url: /tag/on-writing
 
 header_navigation:
-- title: Case Studies
-  url: case-studies
-  subfolderitems:
-    - page: Book Studies
-      categ: "books"
-      url: /tag/book-studies
-    - page: Series
-      categ: "series"
-      url: /tag/series
-    - page: Movies
-      categ: "movies"
-      url: /tag/movies
-    - page: Games
-      categ: "games"
-      url: /tag/games
+- title: About
+  url: about
+- title: Contact
+  url: contact
+  
+collections:
+  foreshadowing:
+    output: true
+    permalink: /theme/:name
+  theme:
+    output: true
+    permalink: /theme/:name
+  concept:
+    output: true
+    permalink: /concept/:name
+  character:
+    output: true
+    permalink: /character/:name
+  structure:
+    output: true
+    permalink: /structure/:name
+  voice:
+    output: true
+    permalink: /voice/:name
+  platform:
+    output: true
+    permalink: /build-your-author-platform/:name
 
 category_tree:
 - page: Book Studies

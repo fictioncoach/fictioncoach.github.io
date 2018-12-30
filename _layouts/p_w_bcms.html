@@ -2,24 +2,25 @@
 layout: default
 ---
 
-<div class="nk-header-title nk-header-title-sm nk-header-title-parallax nk-header-title-parallax-opacity">
-  <div class="nk-header-table">
-      <div class="nk-header-table-cell">
-          <div class="container">
-              <h1 class="nk-title">{{page.title}}</h1>
-          </div>
-      </div>
-  </div>
+<div class="container">
 
-  <div class="nk-header-text-bottom">
-      <div class="nk-breadcrumbs text-center">
-          <ul>
-              <li><a href="index.html">Home</a></li>
-              <li>{% if page.pageLevel and page.pageLevel > 2 %}<a href="{{page.parentUrl}}">{{page.parentTitle}}</a>{% else %}<span>{{ page.title }}</span> {% endif %}</li>
-              {% if page.pageLevel and page.pageLevel > 2 %}<li><span>{{page.categoryName}}</span></li>{% endif %}
-          </ul>
+    <div class="nk-gap-2"></div>
+
+    <div class="row">
+      <div class="col-lg-6 offset-lg-3">
+        <h1 class="text-center text-black line-15 mb-0">{{page.title}}</h1>
       </div>
-  </div>
+    </div>
+
+    <div class="nk-gap-2"></div>
+
+    <div class="nk-breadcrumbs text-center">
+        <ul>
+            <li><a href="{{site.url}}">Home</a></li>
+            <li>{% if page.pageLevel and page.pageLevel > 2 %}<a href="{{page.parentUrl}}">{{page.parentTitle}}</a>{% else %}<span>{{ page.title }}</span> {% endif %}</li>
+            {% if page.pageLevel and page.pageLevel > 2 %}<li><span>{{page.categoryName}}</span></li>{% endif %}
+        </ul>
+    </div>
 </div>
 <!-- END: Header Title -->
 
